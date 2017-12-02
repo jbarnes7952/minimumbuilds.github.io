@@ -11,8 +11,6 @@
     <title>Minimum Builds - Nothing Fancy</title>
 
     <!-- Bootstrap core CSS -->
-
-
     <!-- Latest compiled and minified CSS -->
     <!link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -36,24 +34,38 @@
     <!-- Header -->
     <header class="intro-header" >
       <div class="container">
-        <div class="intro-message">
-          <h1>Minimum Builds</h1>
-          <h3>No frills, just what's required</h3>
-          <hr class="intro-divider">
-          <ul class="list-inline intro-social-buttons">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/minimumbuilds" class="btn btn-default btn-lg">
-                <i class="fa fa-twitter fa-fw"></i>
-                <span class="network-name">Twitter</span>
+        <div class="row top-buffer">
+          <div class="col-lg-7 ml-auto">
+            <div class="intro-message">
+              <h1>Minimum Builds</h1>
+              <h3>No frills, just what's required</h3>
+              <hr class="intro-divider">
+            </div>
+          </div>
+
+          <div class="col-lg-2 ml-auto"></div>
+
+          <div class="col-lg-1 ml-auto">
+            <div>
+
+              <a href="https://hub.docker.com/r/minimumbuilds/" class="btn btn-default btn-md btn-top-buffer">
+                    <i class="icon-brand" style="font-size:100%"></i>
+                    <span class="network-name">Docker Hub</span>
               </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.github.com/minimumbuilds" class="btn btn-default btn-lg">
+
+              <a href="https://www.github.com/minimumbuilds" class="btn btn-default btn-md btn-top-buffer">
                 <i class="fa fa-github fa-fw"></i><i class="fontcustom fa-docker"></i>
                 <span class="network-name">GitHub</span>
               </a>
-            </li>
-          </ul>
+
+              <a href="https://twitter.com/minimumbuilds" class="btn btn-default btn-md btn-top-buffer">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">Twitter</span>
+              </a>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </header>
@@ -76,18 +88,6 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="panel panel-default">
-        <div class="panel-body">
-              <a class="twitter-timeline" data-height="200" href="https://twitter.com/MinimumBuilds?ref_src=twsrc%5Etfw">Tweets by MinimumBuilds</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-      </div>
-    </div>
-
-
-
 
     <div class="section=heading-spacer"></div>
 
@@ -374,11 +374,11 @@
     <!-- /.banner -->
 
     <!-- Footer -->
-    <footer>
+
       <div class="container">
-        <p class="copyright text-muted small">Copyright &copy; Minimum Builds 2017. All Rights Reserved</p>
+        <p class=" text-muted small">Copyright &copy; Minimum Builds 2017. All Rights Reserved</p>
       </div>
-    </footer>
+
 
 
     <!-- Bootstrap core JavaScript -->
